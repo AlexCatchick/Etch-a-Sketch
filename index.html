@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="Title" class="poppins-extrabold" style="text-align: center;margin-top: 60px;">Etch-a-Sketch</h1>
+    <div class="container"></div>
+    <div class="tools">
+        <div class="squares" style="margin-top: 30px;">
+            <span class="poppins-semibold">No. of squares(max: 100)</span>
+            <input type="text" class="poppins-semibold no-of-squares ">
+            <button class="resize">Resize</button>
+        </div>
+        <div class="color poppins-semibold" style="display: flex; align-items: center; gap:25px;">
+            <span class="color">Color</span>
+            <input type="color" value =#000000 class="color-palette" style="width: 20px;height: 20px; border: 1px solid black; border-radius: 100%;">
+        </div>
+    </div>
+    <footer id="footer" class="poppins-regular">Created by Alex</footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
